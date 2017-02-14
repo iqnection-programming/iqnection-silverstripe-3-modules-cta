@@ -5,6 +5,7 @@ class CtaBlock extends DataObject
 	private static $db = array(
 		'Title' => 'Varchar(255)',
 		'Align' => "Enum('Left,Center,Right','Left')",
+		'CssClass' => 'Varchar(255)',
 		'EmbedCode' => 'Text',
 		'Link' => 'Link',
 	);
